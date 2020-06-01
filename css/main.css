@@ -1,0 +1,435 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	font-family: arial;
+	font-size: 15px;
+	line-height: 150%;
+}
+
+
+.navTrigger, #menu
+{
+	
+	display: none;
+}
+
+
+
+
+
+
+.master
+
+{
+	width: 100%;
+	float: left;
+	
+	
+}
+.container{
+	
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.container .focus{
+	
+	width: 100%;
+	float: left;
+	border: 1px solid #000;
+	padding-bottom: 1px;
+	
+		
+	
+}
+
+.container .focus .menu{
+	
+	width: 100%;
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	font-family: arial;
+	padding-top: 15px;
+	padding-bottom: 20px;
+	
+		
+	
+}
+
+.first
+{
+	width: 31%;
+	float: left;
+	background: #677389;
+	padding: 40px 10px 20px 10px;
+	margin-right: 1%;
+	position: relative;
+	top: 0px;
+}
+
+.first .button
+{
+	width: auto;
+	float: left;
+	background: #ccc;
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	background: #5b3039;
+}
+
+.first .button a
+{
+	width: 10%;
+	float: left;
+	padding: 5px 25px;
+	text-decoration: none;
+	color: #000;
+	font-family: arial;
+
+	
+}
+
+
+.second .button
+{
+	width: auto;
+	float: left;
+	background: #ccc;
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	background: #7e3338;
+	position: absolute;
+	
+}
+
+.second .button a
+{
+	width: 10%;
+	float: left;
+	padding: 5px 25px;
+	text-decoration: none;
+	color: #fff;
+	font-family: arial;
+	
+
+	
+}
+
+
+.chicken{
+	
+	width: 90%;
+	margin: 0px auto;
+	padding-bottom: 10px;
+}
+
+.chicken h2{
+	
+margin: 0; padding: 5px 0 20px 0;
+	text-align: center;
+	font-family: arial;
+	font-size: 18px;
+}
+
+.chicken .button
+{
+	display: none;
+}
+
+.bgchange
+{ width: 100%;
+	float: left;
+	background: #677389;
+	padding-bottom: 100px;
+	
+}
+
+.second
+{
+	width: 31%;
+	float: left;
+	background: #677389;
+	padding: 40px 10px 20px 10px;
+	margin-right: 1%;
+	position: relative;
+	top: 0px;
+	display: none;
+}
+
+.third
+{
+	width: 31%;
+	float: left;
+	background: #677389;
+	padding: 40px 10px 20px 10px;
+	position: relative;
+	top: 0px;
+	display: none;
+	
+}
+
+.third .button
+{
+	width: auto;
+	float: left;
+	background: #ccc;
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	background: #c3bab3;
+	position: absolute;
+	top: 2px;
+	right: 2px;
+	display: none;
+}
+
+.third .button a
+{
+	width: 10%;
+	float: left;
+	padding: 5px 25px;
+	text-decoration: none;
+	color: #000;
+	font-family: arial;
+	display: none;
+
+	
+}
+
+
+@media only screen and (max-width: 1210px) {
+	
+	.container{
+	
+	width: 100%;
+	float: left;
+}
+
+
+
+
+.first
+{
+	width: 30.5%;
+	float: left;
+	background: #677389;
+	padding: 40px 10px 20px 10px;
+	margin-right: 1%;
+	position: relative;
+	top: 0px;
+}
+
+
+
+
+
+
+.second
+{
+	width: 30.5%;
+	float: left;
+	background: #677389;
+	padding: 40px 10px 20px 10px;
+	margin-right: 1%;
+	position: relative;
+	top: 0px;
+}
+
+.third
+{
+	width: 30.5%;
+	float: left;
+	background: #677389;
+	padding: 40px 10px 20px 10px;
+	position: relative;
+	top: 0px;
+}
+	
+	
+}
+
+@media only screen and (max-width: 991px) {
+
+	
+		.container{
+	
+	width: 100%;
+	float: left;
+}
+
+	
+	.container .focus .menu{
+	
+margin-top: 190px;
+	
+		
+	
+}
+	
+	.first
+{
+	width: 48%;
+	float: left;
+	background: #677389;
+	padding: 35px 5px 30px 4px;
+	margin-right: 1%;
+	position: relative;
+	top: 0px;
+	margin-bottom: 10px;
+}
+	
+	.second
+{
+	width: 48%;
+	float: left;
+	background: #677389;
+	padding: 35px 5px 30px 8px;
+	margin-right: 0;
+	margin-bottom: 10px;
+}
+	
+	
+.third
+{
+	width: 99%;
+	float: left;
+	background: #677389;
+	padding: 35px 5px 30px 5px;
+}
+	
+	.container .focus{
+	
+	width: 100%;
+	float: left;
+	border: 1px solid #000;
+	padding-bottom: 0px;
+	
+		
+	
+}
+	
+	
+}
+
+
+
+@media only screen and (max-width: 767px) {
+	
+	
+	
+	
+	.container{
+	
+	width: 100%;
+	float: left;
+}
+	
+	
+	.first
+{
+	width: 98%;
+	float: left;
+	background: #677389;
+	padding: 35px 5px 30px 5px;
+	margin-right: 1%;
+	position: relative;
+	top: 0px;
+	margin-bottom: 10px;
+}
+	
+	.second
+{
+	width: 98%;
+	float: left;
+	background: #677389;
+	padding: 35px 5px 30px 5px;
+	margin-right: 1%;
+	margin-bottom: 10px;
+}
+	
+	
+.third
+{
+	width: 98%;
+	float: left;
+	background: #677389;
+	padding: 35px 5px 30px 5px;
+}
+	
+
+	
+	.navTrigger {
+  cursor: pointer;
+  padding: 13px 8px;
+  position: absolute;
+  right: 12px;
+  top: 14px;
+  width: 44px;
+  z-index: 12;
+  display:block;
+}	
+	
+
+.navTrigger ul {
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.navTrigger ul li {
+  background: #0196ec none repeat scroll 0 0;
+  float: left;
+  height: 4px;
+  margin-bottom: 7px;
+  width:100%;
+  position:relative;
+   transition:all 0.2s linear;
+}
+
+	#menu {
+    position: absolute;
+    top: 67px;
+    left: 2.5%;
+    background: #ebebeb;
+    z-index: 9;
+    width: 95%;
+	display: none;
+}
+
+	#menu ul{
+		list-style: none;
+		margin: 0;
+		padding:5px 0;;
+	}
+	
+	#menu ul li{
+		width: 100%;
+		float: left;
+		border-bottom: 1px solid #0196ec;
+	}
+	#menu ul li:last-child{
+		border:none;
+	}
+	
+	#menu ul li a{ 
+		font-family: arial;
+		color: #000;
+		font-size: 16px; 
+		font-weight: 600;
+		width: 100%;
+		float: left; 
+		padding: 10px 0;
+		text-align: center;
+		text-decoration: none;
+	}
+	
+	#menu ul li .nodisplay
+	{
+		display: none;
+	}
+	
+}
